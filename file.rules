@@ -1,0 +1,3 @@
+ [destCode:  (?flight1 fl:flightFromCityName ?name),
+        (?flight1 fl:flightFromApCode ?code),
+        (?flight2 fl:flightToCityName ?name) -> (?flight2 fl:flightToApCode ?code)]

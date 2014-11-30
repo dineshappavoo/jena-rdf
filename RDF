@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<!-- Flight schedule for the fictional airline Snee Air Express. -->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:io="http://www.daml.org/2001/06/itinerary/itinerary-ont#" 
+ xmlns:fl="http://www.snee.com/ns/flights#">
+ 
+ 
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX0426">
+    <fl:flightFromCityName>Barcelona ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#BCN"/>
+    <fl:flightToCityName>Madrid ES</fl:flightToCityName>
+    <io:miles>300</io:miles>
+    <io:depart>7:00a</io:depart>
+    <io:arrive>8:10a</io:arrive>
+    <io:flight>SX0426</io:flight>
+    <io:aircraft>M87</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:duration>1:10</io:duration>
+	</rdf:Description>
+	
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX1023">
+    <fl:flightFromCityName>Chicago-O'Hare IL US </fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#"/>
+    <fl:flightToCityName>Madrid ES</fl:flightToCityName>
+    <io:miles>4196</io:miles>
+    <io:depart>4:50p</io:depart>
+    <io:arrive>7:45a+1</io:arrive>
+    <io:flight>SX1023</io:flight>
+    <io:aircraft>340</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>BD</io:meals>
+    <io:duration>7:55</io:duration>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3743">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>Barcelona ES</fl:flightToCityName>
+    <io:miles>300</io:miles>
+    <io:depart>11:35a</io:depart>
+    <io:arrive>12:45p</io:arrive>
+    <io:flight>SX3743</io:flight>
+    <io:aircraft>320</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>S</io:meals>
+    <io:duration>1:10</io:duration>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3744">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>Barcelona ES</fl:flightToCityName>
+    <io:miles>300</io:miles>
+    <io:depart>12:20p</io:depart>
+    <io:arrive>1:30p</io:arrive>
+    <io:flight>SX3744</io:flight>
+    <io:aircraft>320</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>S</io:meals>
+    <io:duration>1:10</io:duration>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3745">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>Chicago-O'Hare IL US</fl:flightToCityName>
+    <io:miles>4196</io:miles>
+    <io:depart>11:50a</io:depart>
+    <io:arrive>2:20p</io:arrive>
+    <io:flight>SX3745</io:flight>
+    <io:aircraft>340</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>LS</io:meals>
+    <io:duration>9:30</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3746">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>Malaga ES</fl:flightToCityName>
+    <io:miles>267</io:miles>
+    <io:depart>12:20p</io:depart>
+    <io:arrive>1:30p</io:arrive>
+    <io:flight>SX3746</io:flight>
+    <io:aircraft>320</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>S</io:meals>
+    <io:duration>1:10</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3747">
+    <fl:flightFromCityName>Barcelona ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>Malaga ES</fl:flightToCityName>
+    <io:miles>267</io:miles>
+    <io:depart>3:55p</io:depart>
+    <io:arrive>5:05p</io:arrive>
+    <io:flight>SX3747</io:flight>
+    <io:aircraft>757</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>S</io:meals>
+    <io:duration>1:10</io:duration>
+  </rdf:Description>
+<rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3749">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>Miami FL US</fl:flightToCityName>
+    <io:miles>4421</io:miles>
+    <io:depart>11:45a</io:depart>
+    <io:arrive>3:15p</io:arrive>
+    <io:flight>SX3749</io:flight>
+    <io:aircraft>763</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>LS</io:meals>
+    <io:duration>9:30</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3750">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>Miami FL US</fl:flightToCityName>
+    <io:miles>4421</io:miles>
+    <io:depart>12:05p</io:depart>
+    <io:arrive>3:40p</io:arrive>
+    <io:flight>SX3750</io:flight>
+    <io:aircraft>747</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>LS</io:meals>
+    <io:duration>9:35</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3751">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>New York-JFK NY US</fl:flightToCityName>
+    <io:miles></io:miles>
+    <io:depart>5:00p</io:depart>
+    <io:arrive>7:30p</io:arrive>
+    <io:flight>SX3751</io:flight>
+    <io:aircraft>8:30</io:aircraft>
+    <io:aircraft>340</io:aircraft>
+    <fl:freq>1457</fl:freq>
+    <fl:stops>0</fl:stops>
+    <io:meals>DS</io:meals>
+    <io:duration>8:30</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3752">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>New York-JFK NY US</fl:flightToCityName>
+    <io:miles></io:miles>
+    <io:depart>5:00p</io:depart>
+    <io:arrive>7:30p</io:arrive>
+    <io:flight>SX3752</io:flight>
+    <io:aircraft>8:30</io:aircraft>
+    <io:aircraft>340</io:aircraft>
+    <fl:freq>x5</fl:freq>
+    <fl:stops>0</fl:stops>
+    <io:meals>DS</io:meals>
+    <io:duration>8:30</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3753">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>Palma Mallorca ES</fl:flightToCityName>
+    <io:miles>339</io:miles>
+    <io:depart>11:25a</io:depart>
+    <io:arrive>12:40p</io:arrive>
+    <io:flight>SX3753</io:flight>
+    <io:aircraft>320</io:aircraft>
+    <fl:freq>4</fl:freq>
+    <fl:stops>0</fl:stops>
+    <io:meals>S</io:meals>
+    <io:duration>1:15</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3754">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>Palma Mallorca ES</fl:flightToCityName>
+    <io:miles>339</io:miles>
+    <io:depart>11:55a</io:depart>
+    <io:arrive>1:10p</io:arrive>
+    <io:flight>SX3754</io:flight>
+    <io:aircraft>320</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>S</io:meals>
+    <io:duration>1:15</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3755">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>Palma Mallorca ES</fl:flightToCityName>
+    <io:miles>339</io:miles>
+    <io:depart>2:30p</io:depart>
+    <io:arrive>3:45p</io:arrive>
+    <io:flight>SX3755</io:flight>
+    <io:aircraft>M87</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>L</io:meals>
+    <io:duration>1:15</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3756">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>San Juan PR</fl:flightToCityName>
+    <io:miles>3968</io:miles>
+    <io:depart>12:30p</io:depart>
+    <io:arrive>3:55p</io:arrive>
+    <io:flight>SX3756</io:flight>
+    <io:aircraft>8:25</io:aircraft>
+    <io:aircraft>747</io:aircraft>
+    <fl:freq>24</fl:freq>
+    <fl:stops>0</fl:stops>
+    <io:meals>LS</io:meals>
+    <io:duration>8:25</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3757">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>San Juan PR</fl:flightToCityName>
+    <io:miles>3968</io:miles>
+    <io:depart>12:50p</io:depart>
+    <io:arrive>2:55p</io:arrive>
+    <io:flight>SX3757</io:flight>
+    <io:aircraft>8:05</io:aircraft>
+    <io:aircraft>747</io:aircraft>
+    <fl:freq>24</fl:freq>
+    <fl:stops>0</fl:stops>
+    <io:meals>LS</io:meals>
+    <io:duration>8:05</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3758">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>San Juan PR</fl:flightToCityName>
+    <io:miles>3968</io:miles>
+    <io:depart>1:20p</io:depart>
+    <io:arrive>4:50p</io:arrive>
+    <io:flight>SX3758</io:flight>
+    <io:aircraft>8:30</io:aircraft>
+    <io:aircraft>340</io:aircraft>
+    <fl:freq>567</fl:freq>
+    <fl:stops>0</fl:stops>
+    <io:meals>LS</io:meals>
+    <io:duration>8:30</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3759">
+    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
+    <fl:flightToCityName>San Juan PR</fl:flightToCityName>
+    <io:miles>3968</io:miles>
+    <io:depart>1:30p</io:depart>
+    <io:arrive>3:55p</io:arrive>
+    <io:flight>SX3759</io:flight>
+    <io:aircraft>8:25</io:aircraft>
+    <io:aircraft>340</io:aircraft>
+    <fl:freq>567</fl:freq>
+    <fl:stops>0</fl:stops>
+    <io:meals>LS</io:meals>
+    <io:duration>8:25</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3762">
+    <fl:flightFromCityName>Malaga ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#AGP"/>
+    <fl:flightToCityName>Madrid ES</fl:flightToCityName>
+    <io:miles>267</io:miles>
+    <io:depart>6:35a</io:depart>
+    <io:arrive>7:40a</io:arrive>
+    <io:flight>SX3762</io:flight>
+    <io:aircraft>320</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>B</io:meals>
+    <io:duration>1:05</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3763">
+    <fl:flightFromCityName>Malaga ES</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#AGP"/>
+    <fl:flightToCityName>Madrid ES</fl:flightToCityName>
+    <io:miles>267</io:miles>
+    <io:depart>8:25a</io:depart>
+    <io:arrive>9:30a</io:arrive>
+    <io:flight>SX3763</io:flight>
+    <io:aircraft>757</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>B</io:meals>
+    <io:duration>1:05</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX4143">
+    <fl:flightFromCityName>Miami FL US</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MIA"/>
+    <fl:flightToCityName>Madrid ES</fl:flightToCityName>
+    <io:miles>4421</io:miles>
+    <io:depart>5:20p</io:depart>
+    <io:arrive>7:50a+1</io:arrive>
+    <io:flight>SX4143</io:flight>
+    <io:aircraft>747</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>BD</io:meals>
+    <io:duration>8:30</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX4144">
+    <fl:flightFromCityName>Miami FL US</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MIA"/>
+    <fl:flightToCityName>Madrid ES</fl:flightToCityName>
+    <io:miles>4421</io:miles>
+    <io:depart>5:45p</io:depart>
+    <io:arrive>7:45a+1</io:arrive>
+    <io:flight>SX4144</io:flight>
+    <io:aircraft>747</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>BD</io:meals>
+    <io:duration>8:00</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX4145">
+    <fl:flightFromCityName>Miami FL US</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MIA"/>
+    <fl:flightToCityName>Madrid ES</fl:flightToCityName>
+    <io:miles>4421</io:miles>
+    <io:depart>6:00p</io:depart>
+    <io:arrive>8:25a+1</io:arrive>
+    <io:flight>SX4145</io:flight>
+    <io:aircraft>763</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>DK</io:meals>
+    <io:duration>8:25</io:duration>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX4146">
+    <fl:flightFromCityName>Miami FL US</fl:flightFromCityName>
+    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MIA"/>
+    <fl:flightToCityName>Madrid ES</fl:flightToCityName>
+    <io:miles>4421</io:miles>
+    <io:depart>6:20p</io:depart>
+    <io:arrive>8:55a+1</io:arrive>
+    <io:flight>SX4146</io:flight>
+    <io:aircraft>763</io:aircraft>
+    <fl:stops>0</fl:stops>
+    <io:meals>DK</io:meals>
+    <io:duration>8:35</io:duration>
+  </rdf:Description>
+</rdf:RDF>
