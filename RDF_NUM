@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<!-- Flight schedule for the fictional airline Snee Air Express. -->
+<!-- Number Mapping with its properties. -->
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
- xmlns:io="http://www.daml.org/2001/06/itinerary/itinerary-ont#" 
- xmlns:fl="http://www.snee.com/ns/flights#">
+ xmlns:io="http://www.daml.org/2001/06/numbers/numbers-ont#" 
+ xmlns:fl="http://www.snee.com/ns/numbers#">
  
  
   <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX0426">

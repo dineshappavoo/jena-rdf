@@ -1,8 +1,8 @@
   PREFIX  fl:   <http://www.snee.com/ns/flights#>
     PREFIX  acode: <http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#>
     PREFIX  io:   <http://www.daml.org/2001/06/itinerary/itinerary-ont#>
-    SELECT  ?flight ?city
+    SELECT  ?flight 
     WHERE   { 
-                ?flight  fl:flightFromCityName  ? .
+                ?flight  fl:flightFromCityName  'Madrid ES' .
         }
         

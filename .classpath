@@ -2,18 +2,18 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry kind="lib" path="/Users/Dany/Downloads/JenaProject/commons-codec-1.6.jar"/>
-	<classpathentry kind="lib" path="/Users/Dany/Downloads/JenaProject/httpclient-4.2.3.jar"/>
-	<classpathentry kind="lib" path="/Users/Dany/Downloads/JenaProject/httpcore-4.2.2.jar"/>
-	<classpathentry kind="lib" path="/Users/Dany/Downloads/JenaProject/jcl-over-slf4j-1.6.4.jar"/>
-	<classpathentry kind="lib" path="/Users/Dany/Downloads/JenaProject/jena-arq-2.10.0.jar"/>
-	<classpathentry kind="lib" path="/Users/Dany/Downloads/JenaProject/jena-core-2.10.0.jar"/>
-	<classpathentry kind="lib" path="/Users/Dany/Downloads/JenaProject/jena-iri-0.9.5.jar"/>
-	<classpathentry kind="lib" path="/Users/Dany/Downloads/JenaProject/jena-tdb-0.10.0.jar"/>
-	<classpathentry kind="lib" path="/Users/Dany/Downloads/JenaProject/log4j-1.2.16.jar"/>
-	<classpathentry kind="lib" path="/Users/Dany/Downloads/JenaProject/slf4j-api-1.6.4.jar"/>
-	<classpathentry kind="lib" path="/Users/Dany/Downloads/JenaProject/slf4j-log4j12-1.6.4.jar"/>
-	<classpathentry kind="lib" path="/Users/Dany/Downloads/JenaProject/xercesImpl-2.10.0.jar"/>
-	<classpathentry kind="lib" path="/Users/Dany/Downloads/JenaProject/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="/Users/Dany/Downloads/AI_Proj/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/Dany/Downloads/AI_Proj/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="/Users/Dany/Downloads/AI_Proj/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/Dany/Downloads/AI_Proj/jcl-over-slf4j-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/Users/Dany/Downloads/AI_Proj/jena-arq-2.10.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Dany/Downloads/AI_Proj/jena-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Dany/Downloads/AI_Proj/jena-iri-0.9.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Dany/Downloads/AI_Proj/jena-tdb-0.10.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Dany/Downloads/AI_Proj/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/Users/Dany/Downloads/AI_Proj/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/Users/Dany/Downloads/AI_Proj/slf4j-log4j12-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/Users/Dany/Downloads/AI_Proj/xercesImpl-2.10.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Dany/Downloads/AI_Proj/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
