@@ -5,60 +5,24 @@
  xmlns:fl="http://www.snee.com/ns/numbers#">
  
  
-  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX0426">
-    <fl:flightFromCityName>Barcelona ES</fl:flightFromCityName>
-    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#BCN"/>
-    <fl:flightToCityName>Madrid ES</fl:flightToCityName>
-    <io:miles>300</io:miles>
-    <io:depart>7:00a</io:depart>
-    <io:arrive>8:10a</io:arrive>
-    <io:flight>SX0426</io:flight>
-    <io:aircraft>M87</io:aircraft>
-    <fl:stops>0</fl:stops>
-    <io:duration>1:10</io:duration>
+  <rdf:Description rdf:about="http://www.snee.com/ns/numbers#A">
+    <fl:value1>2</fl:value1>
+    <fl:value2>3</fl:value2>
+    <fl:property1>Small Prime Number</fl:property1> 
 	</rdf:Description>
 	
-  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX1023">
-    <fl:flightFromCityName>Chicago-O'Hare IL US </fl:flightFromCityName>
-    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#"/>
-    <fl:flightToCityName>Madrid ES</fl:flightToCityName>
-    <io:miles>4196</io:miles>
-    <io:depart>4:50p</io:depart>
-    <io:arrive>7:45a+1</io:arrive>
-    <io:flight>SX1023</io:flight>
-    <io:aircraft>340</io:aircraft>
-    <fl:stops>0</fl:stops>
-    <io:meals>BD</io:meals>
-    <io:duration>7:55</io:duration>
-  </rdf:Description>
-  
-  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3743">
-    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
-    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
-    <fl:flightToCityName>Barcelona ES</fl:flightToCityName>
-    <io:miles>300</io:miles>
-    <io:depart>11:35a</io:depart>
-    <io:arrive>12:45p</io:arrive>
-    <io:flight>SX3743</io:flight>
-    <io:aircraft>320</io:aircraft>
-    <fl:stops>0</fl:stops>
-    <io:meals>S</io:meals>
-    <io:duration>1:10</io:duration>
-  </rdf:Description>
-  
-  <rdf:Description rdf:about="http://www.snee.com/ns/flights#SX3744">
-    <fl:flightFromCityName>Madrid ES</fl:flightFromCityName>
-    <fl:flightFromApCode rdf:resource="http://www.daml.ri.cmu.edu/ont/AirportCodes.daml#MAD"/>
-    <fl:flightToCityName>Barcelona ES</fl:flightToCityName>
-    <io:miles>300</io:miles>
-    <io:depart>12:20p</io:depart>
-    <io:arrive>1:30p</io:arrive>
-    <io:flight>SX3744</io:flight>
-    <io:aircraft>320</io:aircraft>
-    <fl:stops>0</fl:stops>
-    <io:meals>S</io:meals>
-    <io:duration>1:10</io:duration>
-  </rdf:Description>
-  
+   <rdf:Description rdf:about="http://www.snee.com/ns/numbers#B">
+    <fl:value1>3</fl:value1>
+    <fl:value2>8</fl:value2>
+    <fl:property1>One of the two Adjacent Prime Number</fl:property1>
+
+	</rdf:Description> 
+	
+	 <rdf:Description rdf:about="http://www.snee.com/ns/numbers#C">
+    <fl:value1>4</fl:value1>
+    <fl:value2>7</fl:value2>
+    <fl:property1>Small Prime Number</fl:property1>
+
+	</rdf:Description>
   
 </rdf:RDF>

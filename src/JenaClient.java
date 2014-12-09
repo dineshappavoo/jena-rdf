@@ -64,6 +64,19 @@ public class JenaClient {
 	    time = toc - tic;
 	    System.out.println("These are the results of the query...\n");
 	    ResultSetFormatter.out(System.out, results, query);
+	    
+	    while(results.hasNext())
+	    {
+	    	QuerySolution row=results.nextSolution();
+	        String strC = row.get("c").toString(); 
+	        String strB = row.get("B").toString();
+	        String strT = row.get("T").toString();
+	        //System.out.println("strC:"+strC+strB+strT);
+	        n[count] = new Node(strB);
+	        n[count].addh_value(Integer.parseInt(strC));
+	        n[count].dur = Integer.parseInt(strT) ;
+	        count++;
+	    }
                        
         }
         finally
@@ -115,7 +128,7 @@ public class JenaClient {
 	    Model model = null;
 
 	    {
-		model = readModelFromFile("RDF");
+		model = readModelFromFile("RDF_NUM");
 		System.out.println("The model has " + model.size() + " statements");
 	    }
 	    
