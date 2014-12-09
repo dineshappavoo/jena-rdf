@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!-- Number Mapping with its properties. -->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:io="http://www.daml.org/2001/06/numbers/numbers-ont#" 
+ xmlns:fl="http://www.snee.com/ns/numbers#">
+ 
+ 
+  <rdf:Description rdf:about="http://www.snee.com/ns/numbers#A">
+    <fl:value1>2</fl:value1>
+    <fl:value2>3</fl:value2>
+    <fl:property1>One of the two consecutive prime numbers</fl:property1> 
+	</rdf:Description>
+	
+   <rdf:Description rdf:about="http://www.snee.com/ns/numbers#B">
+    <fl:value1>2</fl:value1>
+    <fl:value2>-2</fl:value2>
+    <fl:property1>The oddest prime</fl:property1>
+	</rdf:Description> 
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#C">
+    <fl:value1>2</fl:value1>
+    <fl:value2>-2</fl:value2>
+    <fl:property1>only even prime number</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#D">
+    <fl:value1>7</fl:value1>
+    <fl:value2>3</fl:value2>
+    <fl:property1>Mersenne prime</fl:property1>
+
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#E">
+    <fl:value1>5</fl:value1>
+    <fl:value2>3</fl:value2>
+    <fl:property1>Fermat Prime</fl:property1>
+
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#F">
+    <fl:value1>-3</fl:value1>
+    <fl:value2>3</fl:value2>
+    <fl:property1>First odd prime number</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#G">
+    <fl:value1>-7</fl:value1>
+    <fl:value2>7</fl:value2>
+    <fl:property1>Double Mersenne number</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#H">
+    <fl:value1>5</fl:value1>
+    <fl:value2>-5</fl:value2>
+    <fl:property1>Only prime number to end in the digit as same</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#I">
+    <fl:value1>5</fl:value1>
+    <fl:value2>-5</fl:value2>
+    <fl:property1>First Wilson prime</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#J">
+    <fl:value1>7</fl:value1>
+    <fl:value2>-7</fl:value2>
+    <fl:property1>first integer reciprocal/multiplicative inverse</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#K">
+    <fl:value1>1</fl:value1>
+    <fl:value2>-1</fl:value2>
+    <fl:property1>The Number is its own square</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#L">
+    <fl:value1>1</fl:value1>
+    <fl:value2>-1</fl:value2>
+    <fl:property1>Neither a prime number nor a composite number</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#M">
+    <fl:value1>4</fl:value1>
+    <fl:value2>-4</fl:value2>
+    <fl:property1>It is the smallest composite number</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#N">
+    <fl:value1>9</fl:value1>
+    <fl:value2>4</fl:value2>
+    <fl:property1>Square root gives another prime Number</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#O">
+    <fl:value1>6</fl:value1>
+    <fl:value2>-6</fl:value2>
+    <fl:property1>Only number that is both the sum and the product of three consecutive positive numbers</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#P">
+    <fl:value1>9</fl:value1>
+    <fl:value2>0</fl:value2>
+    <fl:property1>x + Number = ab[digits] gives x = a+b</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#Q">
+    <fl:value1>9</fl:value1>
+    <fl:value2>0</fl:value2>
+    <fl:property1>x * Number = ab[digits] gives Number = a+b</fl:property1>
+	</rdf:Description>
+
+</rdf:RDF>

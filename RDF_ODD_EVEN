@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<!-- Number Mapping with its properties. -->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:io="http://www.daml.org/2001/06/numbers/numbers-ont#" 
+ xmlns:fl="http://www.snee.com/ns/numbers#">
+ 
+ 
+  <rdf:Description rdf:about="http://www.snee.com/ns/numbers#A">
+    <fl:value1>1</fl:value1>
+    <fl:value2>-1</fl:value2>
+    <fl:property1>smallest odd number</fl:property1> 
+	</rdf:Description>
+	
+   <rdf:Description rdf:about="http://www.snee.com/ns/numbers#B">
+    <fl:value1>1</fl:value1>
+    <fl:value2>-1</fl:value2>
+    <fl:property1>Number is the multiplicative identity/fl:property1>
+	</rdf:Description> 
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#C">
+    <fl:value1>2</fl:value1>
+    <fl:value2>-2</fl:value2>
+    <fl:property1>Smallest even number</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#D">
+    <fl:value1>-3</fl:value1>
+    <fl:value2>3</fl:value2>
+    <fl:property1>A triangular number</fl:property1>
+
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#E">
+    <fl:value1>3</fl:value1>
+    <fl:value2>-3</fl:value2>
+    <fl:property1>The number of spatial dimensions of our universe</fl:property1>
+
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#F">
+    <fl:value1>-4</fl:value1>
+    <fl:value2>4</fl:value2>
+    <fl:property1>The smallest composite</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#G">
+    <fl:value1>-4</fl:value1>
+    <fl:value2>4</fl:value2>
+    <fl:property1>The first non-Fibonacci number</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#H">
+    <fl:value1>4</fl:value1>
+    <fl:value2>9</fl:value2>
+    <fl:property1>xy is for x=y=a[const]</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#I">
+    <fl:value1>5</fl:value1>
+    <fl:value2>-5</fl:value2>
+    <fl:property1>A Fibonacci number</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#J">
+    <fl:value1>5</fl:value1>
+    <fl:value2>-5</fl:value2>
+    <fl:property1>A pyramidal number</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#K">
+    <fl:value1>6</fl:value1>
+    <fl:value2>-6</fl:value2>
+    <fl:property1>Only number that is both the sum and the product of three consecutive positive numbers</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#L">
+    <fl:value1>6</fl:value1>
+    <fl:value2>-6</fl:value2>
+    <fl:property1>The smallest perfect number</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#M">
+    <fl:value1>7</fl:value1>
+    <fl:value2>-7</fl:value2>
+    <fl:property1>The smallest positive integer whose reciprocal has a pattern of more than one repeating digit: 1/7 = 0.142857142857</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#N">
+    <fl:value1>-7</fl:value1>
+    <fl:value2>7</fl:value2>
+    <fl:property1>The smallest number of sides of a regular polygon that is not constructible by straightedge and compass</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#O">
+    <fl:value1>8</fl:value1>
+    <fl:value2>-8</fl:value2>
+    <fl:property1>highest single digit even number, total number of directions in world</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#P">
+    <fl:value1>8</fl:value1>
+    <fl:value2>-8</fl:value2>
+    <fl:property1>The smallest number for which the sum of the digits of its cube is equal to the number: 83 = 512, 5 + 1 + 2 = 8</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#Q">
+    <fl:value1>8</fl:value1>
+    <fl:value2>-8</fl:value2>
+    <fl:property1>The largest cube in the Fibonacci sequence</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#R">
+    <fl:value1>9</fl:value1>
+    <fl:value2>-9</fl:value2>
+    <fl:property1>The maximum number of cubes that are needed to sum to any positive integer</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#S">
+    <fl:value1>9</fl:value1>
+    <fl:value2>-9</fl:value2>
+    <fl:property1>Highest single digit odd number</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#T">
+    <fl:value1>8</fl:value1>
+    <fl:value2>-8</fl:value2>
+    <fl:property1>The largest cube in the Fibonacci sequence</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#U">
+    <fl:value1>4</fl:value1>
+    <fl:value2>-4</fl:value2>
+    <fl:property1>the smallest number of colors sufficient to color all planar maps</fl:property1>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#V">
+    <fl:value1>5</fl:value1>
+    <fl:value2>-5</fl:value2>
+    <fl:property1>The number of Platonic solids</fl:property1>
+	</rdf:Description>
+
+</rdf:RDF>
