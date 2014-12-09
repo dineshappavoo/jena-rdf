@@ -108,5 +108,11 @@
     <fl:value2>0</fl:value2>
     <fl:property1>x * Number = ab[digits] gives Number = a+b</fl:property1>
 	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#R">
+    <fl:value1>8</fl:value1>
+    <fl:value2>-8</fl:value2>
+    <fl:property1>Total no. of convex deltahedra.</fl:property1>
+	</rdf:Description>
 
 </rdf:RDF>

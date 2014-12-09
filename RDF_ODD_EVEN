@@ -14,7 +14,7 @@
    <rdf:Description rdf:about="http://www.snee.com/ns/numbers#B">
     <fl:value1>1</fl:value1>
     <fl:value2>-1</fl:value2>
-    <fl:property1>Number is the multiplicative identity/fl:property1>
+    <fl:property1>Number is the multiplicative identity</fl:property1>
 	</rdf:Description> 
 	
 	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#C">
@@ -120,12 +120,7 @@
     <fl:value2>-9</fl:value2>
     <fl:property1>Highest single digit odd number</fl:property1>
 	</rdf:Description>
-	
-	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#T">
-    <fl:value1>8</fl:value1>
-    <fl:value2>-8</fl:value2>
-    <fl:property1>The largest cube in the Fibonacci sequence</fl:property1>
-	</rdf:Description>
+
 	
 	<rdf:Description rdf:about="http://www.snee.com/ns/numbers#U">
     <fl:value1>4</fl:value1>

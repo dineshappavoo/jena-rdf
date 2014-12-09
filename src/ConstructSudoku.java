@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Scanner;
 
 /**
@@ -12,7 +13,9 @@ import java.util.Scanner;
  */
 public class ConstructSudoku {
 
-	static HashMap<Integer, ArrayList<String>> propertiesMap=null;
+	static HashMap<Integer, ArrayList<String>> propertiesPrimeMap=null;
+	static HashMap<Integer, ArrayList<String>> propertiesOddMap=null;
+
 	/**
 	 * @param args
 	 */
@@ -28,13 +31,16 @@ public class ConstructSudoku {
 		String[] pInput = {"014","023","037","069","088","125", "143" ,"211" ,"263" ,"306" ,"342", "357" ,"404" ,"427" ,"461" ,"483" ,"535" ,"544" ,"589" ,"622" ,"673" ,"745" ,"764" ,"805" ,"824" ,"851" ,"862" ,"876"};
 
 		HintsByPrimeNonPrimeHeuristic jClientObj = new HintsByPrimeNonPrimeHeuristic();
-		propertiesMap = jClientObj.getNumProperties();
-
+		HintsByOddEvenHeuristic jOddEvenObj = new HintsByOddEvenHeuristic();
+		propertiesPrimeMap = jClientObj.getNumProperties();
+		propertiesOddMap = jOddEvenObj.getNumProperties();
+		
 		SudokuSolver solver = new SudokuSolver();
 		int[][] matrix = parseProblem(pInput);
 
 
 		writeMatrix(matrix);
+
 		if (SudokuSolver.solve(0,0,matrix))    // solves in place
 		{
 			writeMatrixByHints(matrix);
@@ -69,10 +75,17 @@ public class ConstructSudoku {
 					String val = solution[i][j] == 0? " ": Integer.toString(solution[i][j]);
 					int res = Integer.parseInt(val);
 					//System.out.print("["+i+","+j+"]:"+res);
-					ArrayList<String> properties = new ArrayList<String>();
-					if( propertiesMap.containsKey(res) )
+					ArrayList<String> primeProperties = new ArrayList<String>();
+					ArrayList<String> oddProperties = new ArrayList<String>();
+
+					if( propertiesPrimeMap.containsKey(res) )
 					{
-						properties = propertiesMap.get(res);
+						primeProperties = propertiesPrimeMap.get(res);
+					}
+					
+					if( propertiesOddMap.containsKey(res) )
+					{
+						oddProperties = propertiesOddMap.get(res);
 					}
 
 					System.out.println("Enter the Answer for ["+i+","+j+"]:");
@@ -84,8 +97,35 @@ public class ConstructSudoku {
 					{
 						System.out.println("    Wrong Answer. Let me give some hints");
 						System.out.println("    ------------------------------------");
+						System.out.println("    PRIME HEIURISTIC\t\t\t|\t\tODD EVEN HEURISTIC");
 
-						for(String prop : properties)
+						
+						Iterator<String> primItr = primeProperties.iterator();
+						Iterator<String> oddItr = oddProperties.iterator();
+						String primeProp="",oddProp="";
+						while(primItr.hasNext()||oddItr.hasNext())
+						{
+							if(primItr.hasNext())
+								primeProp = primItr.next();
+							if(oddItr.hasNext())
+								oddProp = oddItr.next();
+							
+							if(num != res)
+							{
+								System.out.println("    "+primeProp+"\t\t|\t\t"+oddProp);
+								num = scanner.nextInt();
+							}else
+							{
+								System.out.println("    CORRECT ANSWER");
+								ansPrinted = true;
+								break;
+							}
+							
+							primeProp = "";
+							oddProp = "";
+						}
+
+						/*for(String prop : primeProperties)
 						{
 							if(num != res)
 							{
@@ -97,7 +137,7 @@ public class ConstructSudoku {
 								ansPrinted = true;
 								break;
 							}
-						}
+						}*/
 
 
 						if(num !=res)
